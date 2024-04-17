@@ -8,7 +8,7 @@ RUN npm install --legacy-peer-deps
 
 COPY . .
 
-RUN npm run build-no-error
+RUN npm run build
 
 FROM nginx:alpine
 
